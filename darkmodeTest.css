@@ -1,0 +1,130 @@
+    @media screen and (max-width: 350px) {
+      .three-col .column {
+        max-width: 100% !important;
+      }
+    }
+
+    @media screen and (min-width: 351px) and (max-width: 660px) {
+      .three-col .column {
+        max-width: 50% !important;
+      }
+    }
+
+    @media screen and (max-width: 660px) {
+      .two-col .column {
+        max-width: 100% !important;
+      }
+
+      .two-col .column-40 {
+        max-width: 100% !important;
+      }
+
+      .two-col .column-60 {
+        max-width: 100% !important;
+      }
+
+      .two-col .semigap-left {
+        padding-right: 0px !important;
+      }
+
+      .two-col .semigap-right {
+        padding-left: 0px !important;
+      }
+
+      .two-col .column-gap-y {
+        margin-top: 24px !important;
+      }
+
+      .two-col .column-gap-y-large {
+        margin-top: 40px !important;
+      }
+
+      .two-col img {
+        width: 100% !important;
+      }
+
+      .outer {
+        width: 100% !important;
+      }
+
+      .wrapper-margin-y {
+        height: 0px !important;
+      }
+
+      .wrapper-padding-x {
+        width: 16px !important;
+      }
+
+      .header-height {
+        height: 108px !important;
+      }
+    }
+
+    @media screen and (min-width: 661px) {
+      .three-col .column {
+        max-width: 33.3% !important;
+      }
+
+      .two-col .column {
+        max-width: 50% !important;
+      }
+
+      .two-col .column-40 {
+        max-width: 40% !important;
+      }
+
+      .two-col .column-60 {
+        max-width: 60% !important;
+      }
+
+      .two-col .semigap-left {
+        padding-right: 8px !important;
+      }
+
+      .two-col .semigap-right {
+        padding-left: 8px !important;
+      }
+
+      .two-col .column-gap-y {
+        margin-top: 0px !important;
+      }
+
+      .two-col .column-gap-y-large {
+        margin-top: 0px !important;
+      }
+
+      .sidebar .small {
+        max-width: 16% !important;
+      }
+
+      .sidebar .large {
+        max-width: 84% !important;
+      }
+
+      .outer {
+        width: 96% !important;
+      }
+
+      .wrapper-margin-y {
+        height: 60px !important;
+      }
+
+      .wrapper-padding-x {
+        width: 40px !important;
+      }
+
+      .header-height {
+        height: 108px !important;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .background {
+        background-color: #232325 !important;
+      }
+
+      .text-color {
+        color: #F2F7FA !important;
+        
+      }
+    }
